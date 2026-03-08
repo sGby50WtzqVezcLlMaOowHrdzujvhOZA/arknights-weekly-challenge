@@ -91,7 +91,10 @@
                     <div class="challenge-card">
                         <h2 class="item-name">${item.name}</h2>
                         <span class="category-name">${item.categoryName}</span>
-                        <p class="category-desc">${item.detail}</p>
+                        ${item.detail
+                            ? `<p class="category-desc">${item.detail}</p>`
+                            : ''
+                        }
                         ${item.link
                             ? `<p class="category-desc"><a href="${item.link}">Link</a></p>`
                             : ''
