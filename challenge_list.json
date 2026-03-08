@@ -1,68 +1,27 @@
 [
   {
     "categoryName": "Raceknights",
-    "categoryDescription": "Make your gimmick ethnosquad dreams come true!",
     "maxPicks": 1,
     "challenges": [
       {
-        "name": "Liberiknights"
-      },
-      {
-        "name": "Sarkazknights"
-      },
-      {
-        "name": "Sanktaknights"
+        "name": "All operators must be the same race",
+        "link": "https://arknights.wiki.gg/wiki/Race"
       }
     ]
   },
   {
     "categoryName": "Factionknights",
-    "categoryDescription": "Only this one faction allowed, lack of synergy be damned.",
     "maxPicks": 1,
     "challenges": [
       {
-        "name": "Rhineknights"
-      },
-      {
-        "name": "Karlanknights"
-      }
-    ]
-  },
-  {
-    "categoryName": "Classknights",
-    "categoryDescription": "Only this class allowed!",
-    "maxPicks": 1,
-    "challenges": [
-      {
-        "name": "Vanguards only"
-      },
-      {
-        "name": "Guards only"
-      },
-      {
-        "name": "Defenders only"
-      },
-      {
-        "name": "Snipers only"
-      },
-      {
-        "name": "Casters only"
-      },
-      {
-        "name": "Medics only"
-      },
-      {
-        "name": "Supporters only"
-      },
-      {
-        "name": "Specialists only"
+        "name": "All operators must be the same faction",
+        "link": "https://arknights.wiki.gg/wiki/Operator/List"
       }
     ]
   },
   {
     "categoryName": "Anti-Classknights",
-    "categoryDescription": "",
-    "maxPicks": 5,
+    "maxPicks": 3,
     "challenges": [
       {
         "name": "No vanguards allowed"
@@ -92,14 +51,156 @@
   },
   {
     "categoryName": "Themeknights",
-    "categoryDescription": "",
     "maxPicks": 5,
     "challenges": [
       {
         "name": "Only operators featured in this event story"
       },
       {
-        "name": "Fashionknights (operators in non-default outfits only)"
+        "name": "Operators in non-default outfits only"
+      },
+      {
+        "name": "Operators with names starting with the same letter"
+      },
+      {
+        "name": "Only operators released in the same year"
+      },
+      {
+        "name": "Operators that share the same type of base skill"
+      },
+      {
+        "name": "Operators with tails only"
+      },
+      {
+        "name": "Melee operators only"
+      },
+      {
+        "name": "Ranged operators only"
+      },
+      {
+        "name": "Physical damage only"
+      },
+      {
+        "name": "Arts damage only"
+      },
+      {
+        "name": "All operators must use the same type of weapon (e.g. sword, crossbow)"
+      },
+      {
+        "name": "Operators in swimsuits/Coral Coast outfits only"
+      },
+      {
+        "name": "Operators in holiday outfits only",
+        "detail": "Christmas, Halloween, Valentine's Day, etc."
+      },
+      {
+        "name": "Operators that inflict status effects only"
+      },
+      {
+        "name": "Operators with deployables/summons only",
+        "detail": "E.g. trapmasters, summoners, artificers, tacticians, Kally Wally, etc."
+      },
+      {
+        "name": "No blocking allowed",
+        "detail": "Block count 0, no cheating by buffing block count"
+      },
+      {
+        "name": "Deploy on one side of the map only",
+        "detail": "Left/right/top/bottom half only"
+      },
+      {
+        "name": "One tile only"
+      },
+      {
+        "name": "Operators with alters and their alters only"
+      },
+      {
+        "name": "1* ops only, plus one wild card of any rarity"
+      },
+      {
+        "name": "Your least popular/most niche operators only"
+      },
+      {
+        "name": "Backwardknights",
+        "detail": "Only operators who can target behind themselves, exclusively facing away"
+      },
+      {
+        "name": "Elemental mechanics only",
+        "detail": "Ritualists, primal casters/guards/defenders, wandering medics"
+      },
+      {
+        "name": "Shiftknights",
+        "detail": "Pushers/pullers and weightless effects only"
+      },
+      {
+        "name": "Frailknights",
+        "detail": "Greater than 1.5k hp need not apply"
+      },
+      {
+        "name": "Bulkknights",
+        "detail": "Sub-3k hp need not apply"
+      },
+      {
+        "name": "Defeat all enemies within one tile of the blue box"
+      },
+      {
+        "name": "All operators with the same eye color"
+      },
+      {
+        "name": "All operators with the same hair color"
+      },
+      {
+        "name": "All operators with the same color scheme",
+        "detail": "Pinkknights, redknights, etc."
+      },
+      {
+        "name": "ABCknights",
+        "detail": "All operator names must use consecutive letters, doesn't have to begin at A"
+      },
+      {
+        "name": "Operators can only bring s1"
+      },
+      {
+        "name": "All operators must be deployed adjacent to one another"
+      },
+      {
+        "name": "Only operators born within the same month",
+        "link": "https://arknights.wiki.gg/wiki/Operator/List"
+      },
+      {
+        "name": "One operator per birth month"
+      },
+      {
+        "name": "Operators must not retreat or be defeated",
+        "detail": "Dollkeepers cycling probably shouldn't count"
+      },
+      {
+        "name": "Non-boss enemies can't move farther than 5 tiles from a red box",
+        "detail": "Unless they spawn farther away of course"
+      },
+      {
+        "name": "No healing or regen",
+        "detail": "That includes self-sustain, e.g. Mountain, Thorns, reapers"
+      },
+      {
+        "name": "Convictionknights",
+        "detail": "Conviction must be deployed first, have s2 equipped, operators can only be deployed in s2 range, and Conviction must not be defeated. Don't worry, I had to look the skill up too."
+      },
+      {
+        "name": "Offensive/defensive recovery skills only",
+        "detail": "Dusting off your Ch'en and Blemi is explicitly allowed, if not encouraged."
+      },
+      {
+        "name": "Cheapknights, DP cost under 15 only"
+      },
+      {
+        "name": "Only one DPS + a bunch of buffers"
+      },
+      {
+        "name": "No 6* operators allowed"
+      },
+      {
+        "name": "No 5* or 6* operators allowed"
       }
     ]
   }

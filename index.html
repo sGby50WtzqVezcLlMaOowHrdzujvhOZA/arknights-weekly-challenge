@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekly Arknights Challenge</title>
+    <title>/akg/ Arknights Challenge</title>
     <style>
         body {
             background-color: #2e3440;
@@ -32,7 +32,7 @@
         }
 
         p.subtitle {
-            color: #4c566a;
+            color: #5e81ac;
             font-size: 0.9rem;
         }
         
@@ -71,8 +71,8 @@
 <body>
     <main>
         <header>
-            <h1 id="event-title">Weekly Arknights Challenge</h1>
-            <p class="subtitle">Resets every Sunday</p>
+            <h1 id="event-title">/akg/ Arknights Challenge</h1>
+            <p class="subtitle">New challenges (roughly) every third Sunday</p>
         </header>
 
         <div id="challenge-list"></div>
@@ -81,7 +81,7 @@
     <script>
         async function init() {
             try {
-                const response = await fetch('./current_week.json');
+                const response = await fetch('./latest.json');
                 const data = await response.json();
 
                 document.getElementById('event-title').innerText = data.event;
@@ -91,7 +91,11 @@
                     <div class="challenge-card">
                         <h2 class="item-name">${item.name}</h2>
                         <span class="category-name">${item.categoryName}</span>
-                        <p class="category-desc">${item.categoryDescription}</p>
+                        <p class="category-desc">${item.detail}</p>
+                        ${item.link
+                            ? `<p class="category-desc"><a href="${item.link}">Link</a></p>`
+                            : ''
+                        }
                     </div>
                 `).join('');
 

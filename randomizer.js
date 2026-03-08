@@ -12,7 +12,6 @@ try {
         cat.challenges.map(item => ({
             ...item,
             categoryName: cat.categoryName,
-            categoryDescription: cat.categoryDescription,
             maxPicks: cat.maxPicks
         }))
     );
@@ -41,7 +40,7 @@ try {
       challenges: weeklyChallenges
     }
   
-    fs.writeFileSync('current_week.json', JSON.stringify(weeklySelection, null, 2));
+    fs.writeFileSync('latest.json', JSON.stringify(weeklySelection, null, 2));
     
     console.log("Weekly challenge successfully generated");
 } catch (error) {

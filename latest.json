@@ -1,0 +1,32 @@
+{
+  "event": "The Rides to Lake Silberneherze",
+  "challenges": [
+    {
+      "name": "No guards allowed",
+      "categoryName": "Anti-Classknights",
+      "maxPicks": 3
+    },
+    {
+      "name": "Operators must not retreat or be defeated",
+      "detail": "Dollkeepers cycling probably shouldn't count",
+      "categoryName": "Themeknights",
+      "maxPicks": 5
+    },
+    {
+      "name": "Operators with alters and their alters only",
+      "categoryName": "Themeknights",
+      "maxPicks": 5
+    },
+    {
+      "name": "Ranged operators only",
+      "categoryName": "Themeknights",
+      "maxPicks": 5
+    },
+    {
+      "name": "All operators must be the same race",
+      "link": "https://arknights.wiki.gg/wiki/Race",
+      "categoryName": "Raceknights",
+      "maxPicks": 1
+    }
+  ]
+}
